@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\bin\Debug\Clase_04.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\bin\Debug\Clase_04.Entidades.pdb
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\obj\Debug\Clase_04.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\obj\Debug\Clase_04.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\obj\Debug\Clase_04.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04.Entidades\obj\Debug\Clase_04.Entidades.pdb
