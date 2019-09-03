@@ -18471,12 +18471,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\TomasGiordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
       "projectName": "Clase_04.Entidades",
-      "projectPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
-      "projectJsonPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\project.json",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\TomasGiordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
+      "projectJsonPath": "C:\\Users\\alumno\\Desktop\\TomasGiordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\project.json",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\TomasGiordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",

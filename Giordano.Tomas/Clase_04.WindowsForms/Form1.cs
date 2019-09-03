@@ -22,6 +22,8 @@ namespace Clase_04.WindowsForms
         {
             Cosa cosa = new Cosa(int.Parse(this.textBox1.Text),this.textBox3.Text,DateTime.Parse(this.textBox4.Text));
             MessageBox.Show(cosa.Mostrar());
+
+            listBox1.Items.Add(cosa.Mostrar());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,6 +31,21 @@ namespace Clase_04.WindowsForms
             textBox1.Text = "";
             textBox4.Text = "";
             textBox3.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.BackColor =Color.Red;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.DarkSlateGray;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Blue;
         }
     }
 }
