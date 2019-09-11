@@ -51,6 +51,7 @@ namespace Clase_07
 
             Tempera t = new Tempera((ConsoleColor)this.comboBox1.SelectedItem,textBox1.Text,Convert.ToInt32(textBox2.Text));
             MessageBox.Show(t);
+            
             this.Close();
         }
     }

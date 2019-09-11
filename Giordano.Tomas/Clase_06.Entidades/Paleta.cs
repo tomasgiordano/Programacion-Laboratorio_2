@@ -19,6 +19,7 @@ namespace Clase_06.Entidades
 
           private Paleta() : this(5)
           {
+
           }
 
             public static implicit operator Paleta(int num)

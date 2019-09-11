@@ -35,7 +35,14 @@ namespace Clase_07
         private void paletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             groupBox1.Visible = true;
-            paletaToolStripMenuItem.Enabled= false;
+            //paletaToolStripMenuItem.Enabled= false;
 ;        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frmTempera = new MenuTempera();
+            //frmTempera.MdiParent = this;
+            frmTempera.ShowDialog();
+        }
     }
 }
