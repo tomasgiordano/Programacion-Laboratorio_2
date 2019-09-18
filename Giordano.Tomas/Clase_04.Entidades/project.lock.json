@@ -18467,19 +18467,19 @@
     ".NETPlatform,Version=v5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "C:\\Users\\alumno\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\2DO CUATRI\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
       "projectName": "Clase_04.Entidades",
-      "projectPath": "C:\\Users\\pc\\Desktop\\2DO CUATRI\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
-      "projectJsonPath": "C:\\Users\\pc\\Desktop\\2DO CUATRI\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\project.json",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\2DO CUATRI\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\obj\\",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\Clase_04.Entidades.csproj",
+      "projectJsonPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\project.json",
+      "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Tomas Giordano\\Programacion-Laboratorio_2\\Giordano.Tomas\\Clase_04.Entidades\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
