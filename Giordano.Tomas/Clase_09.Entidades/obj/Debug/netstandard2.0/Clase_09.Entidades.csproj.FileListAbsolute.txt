@@ -16,3 +16,12 @@ C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.deps.json
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\bin\Debug\netstandard2.0\Clase_09.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.AssemblyInfo.cs
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_09.Entidades\obj\Debug\netstandard2.0\Clase_09.Entidades.pdb

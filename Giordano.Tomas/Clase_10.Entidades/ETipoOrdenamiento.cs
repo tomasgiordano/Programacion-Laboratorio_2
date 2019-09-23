@@ -1,4 +1,4 @@
-﻿enum ETipoOrdenamiento
+﻿public enum ETipoOrdenamiento
 {
     LegajoAscendente,
     LegajoDescendente,

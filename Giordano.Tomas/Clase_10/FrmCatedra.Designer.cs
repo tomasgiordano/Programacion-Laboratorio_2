@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.gbxAlumnos = new System.Windows.Forms.GroupBox();
-            this.gbxAlumnosCalificados = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnCalificar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.cmbOrdenar = new System.Windows.Forms.ComboBox();
             this.lbxAlumnos = new System.Windows.Forms.ListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnCalificar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.gbxAlumnosCalificados = new System.Windows.Forms.GroupBox();
             this.lbxAlumnosCalificados = new System.Windows.Forms.ListBox();
             this.gbxAlumnos.SuspendLayout();
             this.gbxAlumnosCalificados.SuspendLayout();
@@ -42,7 +42,7 @@
             // 
             // gbxAlumnos
             // 
-            this.gbxAlumnos.Controls.Add(this.comboBox1);
+            this.gbxAlumnos.Controls.Add(this.cmbOrdenar);
             this.gbxAlumnos.Controls.Add(this.lbxAlumnos);
             this.gbxAlumnos.Controls.Add(this.btnModificar);
             this.gbxAlumnos.Controls.Add(this.btnCalificar);
@@ -54,33 +54,22 @@
             this.gbxAlumnos.TabStop = false;
             this.gbxAlumnos.Text = "Alumnos";
             // 
-            // gbxAlumnosCalificados
+            // cmbOrdenar
             // 
-            this.gbxAlumnosCalificados.Controls.Add(this.lbxAlumnosCalificados);
-            this.gbxAlumnosCalificados.Location = new System.Drawing.Point(12, 239);
-            this.gbxAlumnosCalificados.Name = "gbxAlumnosCalificados";
-            this.gbxAlumnosCalificados.Size = new System.Drawing.Size(513, 199);
-            this.gbxAlumnosCalificados.TabIndex = 1;
-            this.gbxAlumnosCalificados.TabStop = false;
-            this.gbxAlumnosCalificados.Text = "Alumnos Calificados";
+            this.cmbOrdenar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbOrdenar.FormattingEnabled = true;
+            this.cmbOrdenar.Location = new System.Drawing.Point(6, 189);
+            this.cmbOrdenar.Name = "cmbOrdenar";
+            this.cmbOrdenar.Size = new System.Drawing.Size(501, 21);
+            this.cmbOrdenar.TabIndex = 4;
             // 
-            // btnAgregar
+            // lbxAlumnos
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(6, 19);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(98, 25);
-            this.btnAgregar.TabIndex = 0;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnCalificar
-            // 
-            this.btnCalificar.Location = new System.Drawing.Point(212, 19);
-            this.btnCalificar.Name = "btnCalificar";
-            this.btnCalificar.Size = new System.Drawing.Size(98, 25);
-            this.btnCalificar.TabIndex = 1;
-            this.btnCalificar.Text = "Calificar";
-            this.btnCalificar.UseVisualStyleBackColor = true;
+            this.lbxAlumnos.FormattingEnabled = true;
+            this.lbxAlumnos.Location = new System.Drawing.Point(6, 50);
+            this.lbxAlumnos.Name = "lbxAlumnos";
+            this.lbxAlumnos.Size = new System.Drawing.Size(501, 134);
+            this.lbxAlumnos.TabIndex = 3;
             // 
             // btnModificar
             // 
@@ -91,22 +80,33 @@
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
             // 
-            // lbxAlumnos
+            // btnCalificar
             // 
-            this.lbxAlumnos.FormattingEnabled = true;
-            this.lbxAlumnos.Location = new System.Drawing.Point(6, 50);
-            this.lbxAlumnos.Name = "lbxAlumnos";
-            this.lbxAlumnos.Size = new System.Drawing.Size(501, 134);
-            this.lbxAlumnos.TabIndex = 3;
+            this.btnCalificar.Location = new System.Drawing.Point(212, 19);
+            this.btnCalificar.Name = "btnCalificar";
+            this.btnCalificar.Size = new System.Drawing.Size(98, 25);
+            this.btnCalificar.TabIndex = 1;
+            this.btnCalificar.Text = "Calificar";
+            this.btnCalificar.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // btnAgregar
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 189);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(501, 21);
-            this.comboBox1.TabIndex = 4;
+            this.btnAgregar.Location = new System.Drawing.Point(6, 19);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(98, 25);
+            this.btnAgregar.TabIndex = 0;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // gbxAlumnosCalificados
+            // 
+            this.gbxAlumnosCalificados.Controls.Add(this.lbxAlumnosCalificados);
+            this.gbxAlumnosCalificados.Location = new System.Drawing.Point(12, 239);
+            this.gbxAlumnosCalificados.Name = "gbxAlumnosCalificados";
+            this.gbxAlumnosCalificados.Size = new System.Drawing.Size(513, 199);
+            this.gbxAlumnosCalificados.TabIndex = 1;
+            this.gbxAlumnosCalificados.TabStop = false;
+            this.gbxAlumnosCalificados.Text = "Alumnos Calificados";
             // 
             // lbxAlumnosCalificados
             // 
@@ -134,7 +134,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox gbxAlumnos;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbOrdenar;
         private System.Windows.Forms.ListBox lbxAlumnos;
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnCalificar;

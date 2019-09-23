@@ -7,3 +7,12 @@ C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.dll
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\bin\Debug\netstandard2.0\Clase_10.Entidades.deps.json
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\bin\Debug\netstandard2.0\Clase_10.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\bin\Debug\netstandard2.0\Clase_10.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.AssemblyInfo.cs
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10.Entidades\obj\Debug\netstandard2.0\Clase_10.Entidades.pdb

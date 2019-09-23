@@ -8,3 +8,13 @@ C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.csproj.CopyComplete
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.exe
 C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\bin\Debug\Clase_04.exe.config
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\bin\Debug\Clase_04.exe
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\bin\Debug\Clase_04.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\bin\Debug\Clase_04.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\bin\Debug\Clase_04.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.csproj.CopyComplete
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.exe
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_04\obj\Debug\Clase_04.pdb

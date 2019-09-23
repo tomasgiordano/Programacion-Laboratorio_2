@@ -4,13 +4,18 @@ using System.Text;
 
 namespace Clase_10.Entidades
 {
-    class Catedra
+    public class Catedra
     {
         private List<Alumno> alumnos;
 
         public List<Alumno> GetAlumnos
         {
             get { return this.alumnos; }
+        }
+
+        public Catedra()
+        {
+            this.alumnos = new List<Alumno>();
         }
 
         public static int operator |(Catedra c, Alumno a)

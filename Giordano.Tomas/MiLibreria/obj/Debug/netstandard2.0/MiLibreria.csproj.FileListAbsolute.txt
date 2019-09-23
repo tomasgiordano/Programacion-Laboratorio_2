@@ -6,3 +6,12 @@ C:\Users\alumno\Desktop\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj
 C:\Users\alumno\Desktop\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
 C:\Users\alumno\Desktop\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.deps.json
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\bin\Debug\netstandard2.0\MiLibreria.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.AssemblyInfo.cs
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\MiLibreria\obj\Debug\netstandard2.0\MiLibreria.pdb
