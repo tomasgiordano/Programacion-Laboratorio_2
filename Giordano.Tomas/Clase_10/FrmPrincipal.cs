@@ -28,7 +28,8 @@ namespace Clase_10
         private void catedraToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form frmCatedra = new FrmCatedra();
-            frmCatedra.ShowDialog();
+            frmCatedra.MdiParent = this;
+            frmCatedra.Show();
         }
     }
 }

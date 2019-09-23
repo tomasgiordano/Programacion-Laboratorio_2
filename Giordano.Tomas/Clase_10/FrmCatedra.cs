@@ -29,22 +29,6 @@ namespace Clase_10
             this.cmbOrdenar.SelectedItem = ETipoOrdenamiento.LegajoAscendente;
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
-            bool seSumo = false;
-            FrmAlumno formAlumno = new FrmAlumno();
-
-            formAlumno.StartPosition = FormStartPosition.CenterScreen;
-            formAlumno.FormBorderStyle = FormBorderStyle.FixedSingle;
-            formAlumno.ShowDialog();
-
-            if (formAlumno.DialogResult == DialogResult.OK)
-            {
-                seSumo = this.miCatedra + formAlumno.MiAlumno;
-                this.ActualizarListadoAlumnos();
-            }
-        }
-
         private void ActualizarListadoAlumnos()
         {
             if (!Object.Equals(this.miCatedra, null))
@@ -77,6 +61,24 @@ namespace Clase_10
         private void cmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
         {
             ActualizarListadoAlumnos();
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            bool seSumo = false;
+
+            FrmAlumno formAlumno = new FrmAlumno();
+            formAlumno.ShowDialog();
+
+            formAlumno.StartPosition = FormStartPosition.CenterScreen;
+            formAlumno.FormBorderStyle = FormBorderStyle.FixedSingle;
+
+
+            if (formAlumno.DialogResult == DialogResult.OK)
+            {
+                seSumo = this.miCatedra + formAlumno.MiAlumno;
+                this.ActualizarListadoAlumnos();
+            }
         }
     }
 }
