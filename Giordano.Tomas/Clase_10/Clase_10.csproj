@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAlumnoCalificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlumnoCalificado.Designer.cs">
+      <DependentUpon>FrmAlumnoCalificado.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAlumno.resx">
       <DependentUpon>FrmAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlumnoCalificado.resx">
+      <DependentUpon>FrmAlumnoCalificado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCatedra.resx">
       <DependentUpon>FrmCatedra.cs</DependentUpon>

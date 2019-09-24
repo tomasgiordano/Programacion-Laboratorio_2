@@ -29,6 +29,7 @@ namespace Clase_10
         {
             Form frmCatedra = new FrmCatedra();
             frmCatedra.MdiParent = this;
+            frmCatedra.StartPosition = FormStartPosition.CenterScreen;
             frmCatedra.Show();
         }
     }

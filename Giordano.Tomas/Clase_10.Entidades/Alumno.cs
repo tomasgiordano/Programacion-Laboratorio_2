@@ -89,5 +89,10 @@ namespace Clase_10.Entidades
         {
             return -1 * OrdenarPorLegajoAsc(a, b);
         }
+
+        public override string ToString()
+        {
+            return Alumno.Mostrar(this);
+        }
     }
 }

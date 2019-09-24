@@ -14,7 +14,7 @@ namespace Clase_10
     public partial class FrmCatedra : Form
     {
         private Catedra miCatedra;
-        public List<AlumnoCalificado> misAlumnos;
+        public List<FrmAlumnoCalificado> misAlumnos;
 
         public FrmCatedra()
         {
@@ -52,8 +52,9 @@ namespace Clase_10
                 }
                 foreach (Alumno a in miCatedra.GetAlumnos)
                 {
-                    this.lbxAlumnos.Items.Add(Alumno.Mostrar(a));
+                    this.lbxAlumnos.Items.Add(a.ToString());
                 }
+                //this.lbxAlumnos.Items.Add(miCatedra.ToString());
             }
         }
 
@@ -78,6 +79,34 @@ namespace Clase_10
         private void cmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
         {
             ActualizarListadoAlumnos();
+        }
+
+        private void btnCalificar_Click(object sender, EventArgs e)
+        {
+            FrmAlumnoCalificado frmCalificado = new FrmAlumnoCalificado();
+
+            frmCalificado.ShowDialog();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            FrmAlumno frmAlumno = new FrmAlumno();
+            if(this.lbxAlumnos.SelectedIndex!=-1)
+            {
+                frmAlumno.Modificar(miCatedra.GetAlumnos[this.lbxAlumnos.SelectedIndex]);
+
+                frmAlumno.StartPosition = FormStartPosition.CenterScreen;
+                frmAlumno.FormBorderStyle = FormBorderStyle.FixedSingle;
+
+                frmAlumno.ShowDialog();
+
+                if (frmAlumno.DialogResult == DialogResult.OK)
+                {
+                    miCatedra.GetAlumnos[this.lbxAlumnos.SelectedIndex] = frmAlumno.MiAlumno;
+                    ActualizarListadoAlumnos();
+                }
+            }
+            
         }
     }
 }

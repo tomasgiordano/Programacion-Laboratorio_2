@@ -43,7 +43,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(51, 19);
+            this.lblNombre.Location = new System.Drawing.Point(51, 32);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(47, 13);
             this.lblNombre.TabIndex = 0;
@@ -52,7 +52,7 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(51, 70);
+            this.lblApellido.Location = new System.Drawing.Point(51, 80);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(47, 13);
             this.lblApellido.TabIndex = 1;
@@ -61,7 +61,7 @@
             // lblLegajo
             // 
             this.lblLegajo.AutoSize = true;
-            this.lblLegajo.Location = new System.Drawing.Point(51, 118);
+            this.lblLegajo.Location = new System.Drawing.Point(51, 128);
             this.lblLegajo.Name = "lblLegajo";
             this.lblLegajo.Size = new System.Drawing.Size(42, 13);
             this.lblLegajo.TabIndex = 2;
@@ -70,7 +70,7 @@
             // lblTipoExamen
             // 
             this.lblTipoExamen.AutoSize = true;
-            this.lblTipoExamen.Location = new System.Drawing.Point(51, 166);
+            this.lblTipoExamen.Location = new System.Drawing.Point(51, 176);
             this.lblTipoExamen.Name = "lblTipoExamen";
             this.lblTipoExamen.Size = new System.Drawing.Size(86, 13);
             this.lblTipoExamen.TabIndex = 3;
@@ -78,21 +78,21 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(54, 35);
+            this.txtNombre.Location = new System.Drawing.Point(54, 48);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(147, 20);
             this.txtNombre.TabIndex = 4;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(54, 86);
+            this.txtApellido.Location = new System.Drawing.Point(54, 96);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(147, 20);
             this.txtApellido.TabIndex = 5;
             // 
             // txtLegajo
             // 
-            this.txtLegajo.Location = new System.Drawing.Point(54, 134);
+            this.txtLegajo.Location = new System.Drawing.Point(54, 144);
             this.txtLegajo.Name = "txtLegajo";
             this.txtLegajo.Size = new System.Drawing.Size(147, 20);
             this.txtLegajo.TabIndex = 6;
@@ -101,14 +101,14 @@
             // 
             this.cmbTipoExamen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTipoExamen.FormattingEnabled = true;
-            this.cmbTipoExamen.Location = new System.Drawing.Point(54, 182);
+            this.cmbTipoExamen.Location = new System.Drawing.Point(54, 192);
             this.cmbTipoExamen.Name = "cmbTipoExamen";
             this.cmbTipoExamen.Size = new System.Drawing.Size(147, 21);
             this.cmbTipoExamen.TabIndex = 7;
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(27, 238);
+            this.btnAceptar.Location = new System.Drawing.Point(12, 293);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(89, 27);
             this.btnAceptar.TabIndex = 8;
@@ -119,7 +119,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(152, 238);
+            this.btnCancelar.Location = new System.Drawing.Point(161, 293);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(89, 27);
             this.btnCancelar.TabIndex = 9;
@@ -133,7 +133,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(262, 277);
+            this.ClientSize = new System.Drawing.Size(262, 332);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.cmbTipoExamen);
@@ -157,11 +157,11 @@
         private System.Windows.Forms.Label lblApellido;
         private System.Windows.Forms.Label lblLegajo;
         private System.Windows.Forms.Label lblTipoExamen;
-        private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.TextBox txtApellido;
-        private System.Windows.Forms.TextBox txtLegajo;
-        private System.Windows.Forms.ComboBox cmbTipoExamen;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        protected System.Windows.Forms.TextBox txtNombre;
+        protected System.Windows.Forms.TextBox txtApellido;
+        protected System.Windows.Forms.TextBox txtLegajo;
+        protected System.Windows.Forms.ComboBox cmbTipoExamen;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.crearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catedraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,6 +38,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Gainsboro;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crearToolStripMenuItem,
             this.salirToolStripMenuItem});
@@ -57,7 +59,7 @@
             // catedraToolStripMenuItem
             // 
             this.catedraToolStripMenuItem.Name = "catedraToolStripMenuItem";
-            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.catedraToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.catedraToolStripMenuItem.Text = "Catedra";
             this.catedraToolStripMenuItem.Click += new System.EventHandler(this.catedraToolStripMenuItem_Click);
             // 
@@ -72,8 +74,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
             this.Text = "FrmPrincipal";

@@ -31,7 +31,7 @@ namespace Clase_10
             this.cmbTipoExamen.SelectedItem = ETipoExamen.Tercero;
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
+        protected virtual void btnAceptar_Click(object sender, EventArgs e)
         {
             try
             {
@@ -44,9 +44,18 @@ namespace Clase_10
             }
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        protected void btnCancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
+        }
+
+        public void Modificar(Alumno a)
+        {
+            this.txtLegajo.Enabled = false;
+            this.txtNombre.Text = a.GetNombre;
+            this.txtLegajo.Text = a.GetLegajo.ToString();
+            this.txtApellido.Text = a.GetApellido;
+            this.cmbTipoExamen.SelectedItem = a.GetExamen;
         }
     }
 }

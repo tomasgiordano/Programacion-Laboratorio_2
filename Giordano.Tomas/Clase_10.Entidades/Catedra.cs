@@ -58,5 +58,15 @@ namespace Clase_10.Entidades
                 return false;
             }
         }
+
+        public override string ToString()
+        {
+            string lista = "";
+            foreach (Alumno item in this.GetAlumnos)
+            {
+                lista = lista + Alumno.Mostrar(item) + "\n";
+            }
+            return lista;
+        }
     }
 }
