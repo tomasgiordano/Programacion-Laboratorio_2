@@ -62,6 +62,7 @@
             this.cmbOrdenar.Name = "cmbOrdenar";
             this.cmbOrdenar.Size = new System.Drawing.Size(501, 21);
             this.cmbOrdenar.TabIndex = 4;
+            this.cmbOrdenar.SelectedIndexChanged += new System.EventHandler(this.cmbOrdenar_SelectedIndexChanged);
             // 
             // lbxAlumnos
             // 

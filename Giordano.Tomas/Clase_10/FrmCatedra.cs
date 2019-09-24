@@ -31,7 +31,7 @@ namespace Clase_10
 
         private void ActualizarListadoAlumnos()
         {
-            if (!Object.Equals(this.miCatedra, null))
+            if (!object.Equals(this.miCatedra, null))
             {
                 this.lbxAlumnos.Items.Clear();
 
@@ -50,17 +50,11 @@ namespace Clase_10
                         this.miCatedra.GetAlumnos.Sort(Alumno.OrdenarPorApellidoDesc);
                         break;
                 }
-
                 foreach (Alumno a in miCatedra.GetAlumnos)
                 {
                     this.lbxAlumnos.Items.Add(Alumno.Mostrar(a));
                 }
             }
-        }
-
-        private void cmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            ActualizarListadoAlumnos();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -79,6 +73,11 @@ namespace Clase_10
                 seSumo = this.miCatedra + formAlumno.MiAlumno;
                 this.ActualizarListadoAlumnos();
             }
+        }
+
+        private void cmbOrdenar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ActualizarListadoAlumnos();
         }
     }
 }
