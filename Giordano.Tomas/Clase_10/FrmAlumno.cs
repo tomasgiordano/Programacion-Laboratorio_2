@@ -57,5 +57,7 @@ namespace Clase_10
             this.txtApellido.Text = a.GetApellido;
             this.cmbTipoExamen.SelectedItem = a.GetExamen;
         }
+
+        
     }
 }

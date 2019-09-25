@@ -11,11 +11,16 @@ using Clase_10.Entidades;
 
 namespace Clase_10
 {
-    
+
 
     public partial class FrmAlumnoCalificado : FrmAlumno
     {
         private AlumnoCalificado alumnoNota;
+
+        public AlumnoCalificado AlumnoNota
+        {
+            get { return this.alumnoNota; }
+        }
 
         public FrmAlumnoCalificado()
         {
@@ -33,6 +38,17 @@ namespace Clase_10
             {
                 MessageBox.Show("Faltan datos", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        public void Calificar(Alumno a)
+        {
+
+            base.Modificar(a);
+            base.txtApellido.Enabled = false;
+            base.txtNombre.Enabled = false;
+            base.cmbTipoExamen.Enabled = false;
+
+           
         }
     }
 }

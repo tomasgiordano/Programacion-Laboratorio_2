@@ -14,13 +14,14 @@ namespace Clase_10
     public partial class FrmCatedra : Form
     {
         private Catedra miCatedra;
-        public List<FrmAlumnoCalificado> misAlumnos;
+        public List<Alumno> misAlumnos;
+        public List<AlumnoCalificado> misAlumnosCalificados;
 
         public FrmCatedra()
         {
             InitializeComponent();
             miCatedra = new Catedra();
-
+            misAlumnosCalificados = new List<AlumnoCalificado>;
             foreach (ETipoOrdenamiento ord in Enum.GetValues(typeof(ETipoOrdenamiento)))
             {
                 this.cmbOrdenar.Items.Add(ord);
@@ -58,6 +59,20 @@ namespace Clase_10
             }
         }
 
+        private void ActualizarListadoAlumnosCalificados()
+        {
+            if (!object.Equals(this.miCatedra, null))
+            {
+                this.lbxAlumnosCalificados.Items.Clear();
+                
+                foreach (AlumnoCalificado a in misAlumnosCalificados)
+                {
+                    this.lbxAlumnosCalificados.Items.Add(a.Mostrar());
+                }
+                //this.lbxAlumnos.Items.Add(miCatedra.ToString());
+            }
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             bool seSumo = false;
@@ -85,7 +100,21 @@ namespace Clase_10
         {
             FrmAlumnoCalificado frmCalificado = new FrmAlumnoCalificado();
 
-            frmCalificado.ShowDialog();
+            if(this.lbxAlumnos.SelectedIndex!=-1)
+            {
+                frmCalificado.Calificar(miCatedra.GetAlumnos[this.lbxAlumnos.SelectedIndex]);
+
+                frmCalificado.StartPosition = FormStartPosition.CenterScreen;
+                frmCalificado.FormBorderStyle = FormBorderStyle.FixedSingle;
+                frmCalificado.ShowDialog();
+
+                if (frmCalificado.DialogResult == DialogResult.OK)
+                {
+                    miCatedra.GetAlumnos[this.lbxAlumnos.SelectedIndex] = frmCalificado.AlumnoNota;
+                    misAlumnosCalificados.Add(frmCalificado.AlumnoNota);
+                    ActualizarListadoAlumnosCalificados();
+                }
+            }
         }
 
         private void btnModificar_Click(object sender, EventArgs e)

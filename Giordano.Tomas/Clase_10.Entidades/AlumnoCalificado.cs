@@ -27,5 +27,6 @@ namespace Clase_10.Entidades
         {
             return Alumno.Mostrar(this) +" "+ this.nota.ToString();
         }
+
     }
 }
