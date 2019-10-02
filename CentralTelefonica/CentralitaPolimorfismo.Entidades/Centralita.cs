@@ -55,9 +55,16 @@ namespace CentralitaPolimorfismo.Entidades
             return retorno;
         }
 
-        public void OrdenarLLamadas()
+        public void OrdenarLLamadas(int tipo)
         {
-            this._listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+            if(tipo==1)
+            {
+                this._listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+            }
+            else
+            {
+                this._listaDeLlamadas.Sort(Llamada.OrdenarPorDuracionDes);
+            }
         }
 
         public static bool operator ==(Centralita central,Llamada nuevaLLamada)

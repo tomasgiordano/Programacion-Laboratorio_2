@@ -69,6 +69,21 @@ namespace CentralitaPolimorfismo.Entidades
             }
         }
 
+        public static int OrdenarPorDuracionDes(Llamada uno, Llamada dos)
+        {
+            if (uno._duracion > dos._duracion)
+            {
+                return -1;
+            }
+            else if (uno._duracion == dos._duracion)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }
 
     }
 }

@@ -1,6 +1,6 @@
 namespace CentralitaWindowsForms
 {
-    partial class Llamada
+    partial class frmLlamada
     {
         /// <summary>
         /// Required designer variable.
@@ -40,12 +40,13 @@ namespace CentralitaWindowsForms
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(15, 223);
+            this.btnAceptar.Location = new System.Drawing.Point(18, 223);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 0;
             this.btnAceptar.Text = "&Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -55,6 +56,7 @@ namespace CentralitaWindowsForms
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "&Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // label1
             // 
@@ -130,9 +132,9 @@ namespace CentralitaWindowsForms
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtOrigen;
-        private System.Windows.Forms.TextBox txtDestino;
-        private System.Windows.Forms.TextBox txtDuracion;
         private System.Windows.Forms.Label label3;
+        protected System.Windows.Forms.TextBox txtOrigen;
+        protected System.Windows.Forms.TextBox txtDestino;
+        protected System.Windows.Forms.TextBox txtDuracion;
     }
 }

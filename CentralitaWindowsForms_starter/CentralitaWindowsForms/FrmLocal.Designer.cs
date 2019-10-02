@@ -34,15 +34,15 @@
             // 
             // txtCosto
             // 
-            this.txtCosto.Location = new System.Drawing.Point(12, 179);
+            this.txtCosto.Location = new System.Drawing.Point(15, 183);
             this.txtCosto.Name = "txtCosto";
-            this.txtCosto.Size = new System.Drawing.Size(191, 20);
+            this.txtCosto.Size = new System.Drawing.Size(188, 20);
             this.txtCosto.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 163);
+            this.label4.Location = new System.Drawing.Point(12, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 9;
@@ -52,7 +52,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(229, 253);
+            this.ClientSize = new System.Drawing.Size(220, 258);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtCosto);
             this.Name = "FrmLocal";

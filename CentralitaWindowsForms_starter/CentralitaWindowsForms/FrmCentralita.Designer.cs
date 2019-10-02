@@ -54,6 +54,7 @@
             this.btnLocal.TabIndex = 1;
             this.btnLocal.Text = "Llamada Local";
             this.btnLocal.UseVisualStyleBackColor = true;
+            this.btnLocal.Click += new System.EventHandler(this.btnLocal_Click);
             // 
             // btnProvincial
             // 
@@ -63,14 +64,20 @@
             this.btnProvincial.TabIndex = 2;
             this.btnProvincial.Text = "Llamada Provincial";
             this.btnProvincial.UseVisualStyleBackColor = true;
+            this.btnProvincial.Click += new System.EventHandler(this.btnProvincial_Click);
             // 
             // cboOrdenamiento
             // 
+            this.cboOrdenamiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboOrdenamiento.FormattingEnabled = true;
+            this.cboOrdenamiento.Items.AddRange(new object[] {
+            "Ascendente",
+            "Descendente"});
             this.cboOrdenamiento.Location = new System.Drawing.Point(438, 185);
             this.cboOrdenamiento.Name = "cboOrdenamiento";
             this.cboOrdenamiento.Size = new System.Drawing.Size(190, 21);
             this.cboOrdenamiento.TabIndex = 4;
+            this.cboOrdenamiento.SelectedIndexChanged += new System.EventHandler(this.cboOrdenamiento_SelectedIndexChanged);
             // 
             // lblLabel
             // 

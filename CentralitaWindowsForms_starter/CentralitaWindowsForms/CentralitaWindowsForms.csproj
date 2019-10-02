@@ -65,11 +65,11 @@
     <Compile Include="FrmProvincial.Designer.cs">
       <DependentUpon>FrmProvincial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Llamada.cs">
+    <Compile Include="frmLlamada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Llamada.Designer.cs">
-      <DependentUpon>Llamada.cs</DependentUpon>
+    <Compile Include="frmLlamada.Designer.cs">
+      <DependentUpon>frmLlamada.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,8 +82,8 @@
     <EmbeddedResource Include="FrmProvincial.resx">
       <DependentUpon>FrmProvincial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Llamada.resx">
-      <DependentUpon>Llamada.cs</DependentUpon>
+    <EmbeddedResource Include="frmLlamada.resx">
+      <DependentUpon>frmLlamada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -107,6 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CentralTelefonica\CentralitaPolimorfismo.Entidades\CentralitaPolimorfismo.Entidades.csproj">
+      <Project>{59bfd8f5-f2c9-4b4e-a79e-57e54e029a69}</Project>
+      <Name>CentralitaPolimorfismo.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

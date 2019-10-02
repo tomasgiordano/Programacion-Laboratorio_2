@@ -36,25 +36,25 @@
             // 
             this.cmbFranja.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbFranja.FormattingEnabled = true;
-            this.cmbFranja.Location = new System.Drawing.Point(15, 178);
+            this.cmbFranja.Location = new System.Drawing.Point(15, 184);
             this.cmbFranja.Name = "cmbFranja";
-            this.cmbFranja.Size = new System.Drawing.Size(191, 21);
+            this.cmbFranja.Size = new System.Drawing.Size(188, 21);
             this.cmbFranja.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 162);
+            this.label4.Location = new System.Drawing.Point(12, 168);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 13);
+            this.label4.Size = new System.Drawing.Size(74, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Franja Horaria:";
+            this.label4.Text = "Franja horaria:";
             // 
             // FrmProvincial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(232, 261);
+            this.ClientSize = new System.Drawing.Size(223, 260);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbFranja);
             this.Name = "FrmProvincial";
