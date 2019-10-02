@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralitaPolimorfismo\CentralitaPolimorfismo.csproj", "{48B85484-7281-4E26-91C4-C995A0F2E649}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentralitaPolimorfismo.Entidades", "CentralitaPolimorfismo.Entidades\CentralitaPolimorfismo.Entidades.csproj", "{9BA46912-763C-4871-A051-3332B02972D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaWindowsForms", "..\CentralitaWindowsForms_starter\CentralitaWindowsForms\CentralitaWindowsForms.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaWindowsForms", "CentralitaWindowsForms_starter\CentralitaWindowsForms\CentralitaWindowsForms.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo.Entidades", "CentralitaPolimorfismo.Entidades\CentralitaPolimorfismo.Entidades.csproj", "{59BFD8F5-F2C9-4B4E-A79E-57E54E029A69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{48B85484-7281-4E26-91C4-C995A0F2E649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B85484-7281-4E26-91C4-C995A0F2E649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B85484-7281-4E26-91C4-C995A0F2E649}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BA46912-763C-4871-A051-3332B02972D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BA46912-763C-4871-A051-3332B02972D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BA46912-763C-4871-A051-3332B02972D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BA46912-763C-4871-A051-3332B02972D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BFD8F5-F2C9-4B4E-A79E-57E54E029A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BFD8F5-F2C9-4B4E-A79E-57E54E029A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BFD8F5-F2C9-4B4E-A79E-57E54E029A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BFD8F5-F2C9-4B4E-A79E-57E54E029A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

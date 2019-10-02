@@ -50,11 +50,5 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="ClassDiagram2.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CentralitaPolimorfismo.Entidades\CentralitaPolimorfismo.Entidades.csproj">
-      <Project>{9ba46912-763c-4871-a051-3332b02972d9}</Project>
-      <Name>CentralitaPolimorfismo.Entidades</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
