@@ -32,8 +32,8 @@ namespace CentralitaWindowsForms
             this.btnCancelar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtNumOrigen = new System.Windows.Forms.TextBox();
+            this.txtNumDestino = new System.Windows.Forms.TextBox();
             this.txtDuracion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -74,19 +74,19 @@ namespace CentralitaWindowsForms
             this.label2.TabIndex = 3;
             this.label2.Text = "Número Destino:";
             // 
-            // textBox1
+            // txtNumOrigen
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(188, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtNumOrigen.Location = new System.Drawing.Point(15, 39);
+            this.txtNumOrigen.Name = "txtNumOrigen";
+            this.txtNumOrigen.Size = new System.Drawing.Size(188, 20);
+            this.txtNumOrigen.TabIndex = 4;
             // 
-            // textBox2
+            // txtNumDestino
             // 
-            this.textBox2.Location = new System.Drawing.Point(15, 90);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(188, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtNumDestino.Location = new System.Drawing.Point(15, 90);
+            this.txtNumDestino.Name = "txtNumDestino";
+            this.txtNumDestino.Size = new System.Drawing.Size(188, 20);
+            this.txtNumDestino.TabIndex = 5;
             // 
             // txtDuracion
             // 
@@ -111,8 +111,8 @@ namespace CentralitaWindowsForms
             this.ClientSize = new System.Drawing.Size(215, 262);
             this.Controls.Add(this.txtDuracion);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNumDestino);
+            this.Controls.Add(this.txtNumOrigen);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancelar);
@@ -130,8 +130,8 @@ namespace CentralitaWindowsForms
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNumOrigen;
+        private System.Windows.Forms.TextBox txtNumDestino;
         private System.Windows.Forms.TextBox txtDuracion;
         private System.Windows.Forms.Label label3;
     }

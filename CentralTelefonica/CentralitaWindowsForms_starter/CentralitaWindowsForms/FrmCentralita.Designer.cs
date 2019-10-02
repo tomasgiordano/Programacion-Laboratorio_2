@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.lstVisor = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnLlamadaLocal = new System.Windows.Forms.Button();
+            this.btnLlamadaProvincial = new System.Windows.Forms.Button();
             this.cboOrdenamiento = new System.Windows.Forms.ComboBox();
             this.lblLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -46,23 +46,24 @@
             this.lstVisor.Size = new System.Drawing.Size(616, 160);
             this.lstVisor.TabIndex = 0;
             // 
-            // button1
+            // btnLlamadaLocal
             // 
-            this.button1.Location = new System.Drawing.Point(12, 183);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Llamada Local";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLlamadaLocal.Location = new System.Drawing.Point(12, 183);
+            this.btnLlamadaLocal.Name = "btnLlamadaLocal";
+            this.btnLlamadaLocal.Size = new System.Drawing.Size(135, 23);
+            this.btnLlamadaLocal.TabIndex = 1;
+            this.btnLlamadaLocal.Text = "Llamada Local";
+            this.btnLlamadaLocal.UseVisualStyleBackColor = true;
+            this.btnLlamadaLocal.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnLlamadaProvincial
             // 
-            this.button2.Location = new System.Drawing.Point(159, 183);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Llamada Provincial";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLlamadaProvincial.Location = new System.Drawing.Point(159, 183);
+            this.btnLlamadaProvincial.Name = "btnLlamadaProvincial";
+            this.btnLlamadaProvincial.Size = new System.Drawing.Size(135, 23);
+            this.btnLlamadaProvincial.TabIndex = 2;
+            this.btnLlamadaProvincial.Text = "Llamada Provincial";
+            this.btnLlamadaProvincial.UseVisualStyleBackColor = true;
             // 
             // cboOrdenamiento
             // 
@@ -88,8 +89,8 @@
             this.ClientSize = new System.Drawing.Size(640, 218);
             this.Controls.Add(this.lblLabel);
             this.Controls.Add(this.cboOrdenamiento);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnLlamadaProvincial);
+            this.Controls.Add(this.btnLlamadaLocal);
             this.Controls.Add(this.lstVisor);
             this.Name = "FrmCentralita";
             this.Text = "Centralita";
@@ -101,8 +102,8 @@
         #endregion
 
         private System.Windows.Forms.ListBox lstVisor;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnLlamadaLocal;
+        private System.Windows.Forms.Button btnLlamadaProvincial;
         private System.Windows.Forms.ComboBox cboOrdenamiento;
         private System.Windows.Forms.Label lblLabel;
     }

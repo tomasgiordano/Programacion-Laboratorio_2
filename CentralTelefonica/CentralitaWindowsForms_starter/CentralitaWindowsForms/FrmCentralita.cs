@@ -16,5 +16,12 @@ namespace CentralitaWindowsForms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Llamada llamada = new Llamada();
+            llamada.ShowDialog();
+
+        }
     }
 }

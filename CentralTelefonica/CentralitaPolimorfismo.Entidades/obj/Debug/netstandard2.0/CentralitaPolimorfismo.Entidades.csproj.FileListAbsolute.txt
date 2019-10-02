@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\bin\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.deps.json
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\bin\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\bin\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.pdb
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\CentralTelefonica\CentralitaPolimorfismo.Entidades\obj\Debug\netstandard2.0\CentralitaPolimorfismo.Entidades.pdb
