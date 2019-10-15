@@ -335,3 +335,4 @@ C:\Users\alumno\Desktop\Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase
 C:\Users\alumno\Desktop\Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10\obj\Debug\Clase_10.exe
 C:\Users\alumno\Desktop\Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10\obj\Debug\Clase_10.pdb
 C:\Users\alumno\Desktop\Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10\obj\Debug\Clase_10.FrmAlumnoCalificado.resources
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\Clase_10\obj\Debug\Clase_10.FrmAlumnoCalificado.resources

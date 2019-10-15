@@ -18,8 +18,8 @@ namespace ModeloDeExamen.Entidades
 
         EMateria Nombre
         {
-            get{ return this._nombre; }
-            set{ this._nombre = value; }
+            get { return this._nombre; }
+            set { this._nombre = value; }
         }
 
         private Materia()
@@ -27,7 +27,7 @@ namespace ModeloDeExamen.Entidades
             this.Alumnos = new List<Alumno>();
         }
 
-        private Materia(EMateria nombre):this()
+        private Materia(EMateria nombre) : this()
         {
             this.Nombre = nombre;
         }
@@ -39,12 +39,12 @@ namespace ModeloDeExamen.Entidades
 
         private string Mostrar()
         {
-            return "Materia: "+this.Nombre+ "\n**********************ALUMNOS**********************/n***************************************************";
+            return "Materia: " + this.Nombre + "\n**********************ALUMNOS**********************/n***************************************************";
         }
 
         public void CalificarAlumnos()
         {
-            foreach(Alumno a in this.Alumnos)
+            foreach (Alumno a in this.Alumnos)
             {
                 a.Nota = _notaParaUnAlumno.Next(1, 10);
             }
@@ -57,9 +57,9 @@ namespace ModeloDeExamen.Entidades
 
         public static implicit operator float(Materia m)
         {
-            float acumulador=0;
+            float acumulador = 0;
 
-            foreach(Alumno a in m.Alumnos)
+            foreach (Alumno a in m.Alumnos)
             {
                 acumulador = a.Nota + acumulador;
             }
@@ -72,9 +72,9 @@ namespace ModeloDeExamen.Entidades
             return new Materia(nombre);
         }
 
-        public static bool operator ==(Materia m,Alumno a)
+        public static bool operator ==(Materia m, Alumno a)
         {
-            if(!m.Equals(null))
+            if (!m.Equals(null))
             {
                 return m.Alumnos.Contains(a);
             }
@@ -88,7 +88,6 @@ namespace ModeloDeExamen.Entidades
         {
             return !(m == a);
         }
-
-        publ
-    }
+     }
+  
 }

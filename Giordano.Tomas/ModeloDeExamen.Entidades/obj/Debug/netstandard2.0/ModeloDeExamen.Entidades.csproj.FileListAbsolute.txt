@@ -1,0 +1,9 @@
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.AssemblyInfo.cs
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\bin\Debug\netstandard2.0\ModeloDeExamen.Entidades.deps.json
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\bin\Debug\netstandard2.0\ModeloDeExamen.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\bin\Debug\netstandard2.0\ModeloDeExamen.Entidades.pdb
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.dll
+C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\ModeloDeExamen.Entidades\obj\Debug\netstandard2.0\ModeloDeExamen.Entidades.pdb

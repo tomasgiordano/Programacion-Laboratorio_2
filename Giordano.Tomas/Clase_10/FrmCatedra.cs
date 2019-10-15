@@ -21,7 +21,7 @@ namespace Clase_10
         {
             InitializeComponent();
             miCatedra = new Catedra();
-            misAlumnosCalificados = new List<AlumnoCalificado>;
+            misAlumnosCalificados = new List<AlumnoCalificado>();
             foreach (ETipoOrdenamiento ord in Enum.GetValues(typeof(ETipoOrdenamiento)))
             {
                 this.cmbOrdenar.Items.Add(ord);
