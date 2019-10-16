@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\bin\Debug\netstandard2.0\Ejercicio_48.Entidades.deps.json
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\bin\Debug\netstandard2.0\Ejercicio_48.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\bin\Debug\netstandard2.0\Ejercicio_48.Entidades.pdb
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\obj\Debug\netstandard2.0\Ejercicio_48.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\obj\Debug\netstandard2.0\Ejercicio_48.Entidades.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\obj\Debug\netstandard2.0\Ejercicio_48.Entidades.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\obj\Debug\netstandard2.0\Ejercicio_48.Entidades.dll
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\Ejercicio_48.Entidades\obj\Debug\netstandard2.0\Ejercicio_48.Entidades.pdb
