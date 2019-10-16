@@ -13,21 +13,27 @@ namespace LeerYEscribir
 {
     public partial class Archivos : Form
     {
+        DirectoryInfo di = new DirectoryInfo(@"C:\Users\" + Environment.UserName + @"\");
+        
         public Archivos()
         {
             InitializeComponent();
 
-            foreach (Environment.SpecialFolder item in Enum.GetValues(typeof(Environment.SpecialFolder)))
+            foreach (var direc in di.GetDirectories())
             {
-                cmbUbicacion.Items.Add(item);
-            }           
+                cmbUbicacion.Items.Add(direc);
+            }
+            //foreach (Environment.SpecialFolder item in Enum.GetValues(typeof(Environment.SpecialFolder)))
+            //{
+            //    cmbUbicacion.Items.Add(item);
+            //}           
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
           {
             try
             {
-                StreamWriter writer = new StreamWriter(@"C:\Users\alumno\"+ cmbUbicacion.SelectedItem.ToString() +@"\"+ txtNombre.Text, false);
+                StreamWriter writer = new StreamWriter(di.ToString() + cmbUbicacion.SelectedItem.ToString() + @"\"+ txtNombre.Text+".txt", false);
                 writer.WriteLine(txtTexto.Text);
                 writer.Close();
             }
@@ -39,9 +45,10 @@ namespace LeerYEscribir
 
         private void btnLeer_Click(object sender, EventArgs e)
         {       
+            
             try
             {
-                StreamReader reader = new StreamReader(@"C:\Users\alumno\" + cmbUbicacion.SelectedItem.ToString() + @"\" + txtNombre.Text);
+                StreamReader reader = new StreamReader(di.ToString()+ cmbUbicacion.SelectedItem.ToString() + @"\" + txtNombre.Text+".txt");
                 txtTexto.Text=reader.ReadToEnd();
                 reader.Close();
             }
