@@ -16,18 +16,18 @@ namespace LeerYEscribir
         public Archivos()
         {
             InitializeComponent();
-            foreach (char a in Environment.GetFolderPath(Environment.SpecialFolder.System))
-            {
-                cmbUbicacion.Items.Add(a);
-            }
 
+            foreach (Environment.SpecialFolder item in Enum.GetValues(typeof(Environment.SpecialFolder)))
+            {
+                cmbUbicacion.Items.Add(item);
+            }           
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
-        {
+          {
             try
             {
-                StreamWriter writer = new StreamWriter(cmbUbicacion.SelectedItem.ToString() + txtTexto, false);
+                StreamWriter writer = new StreamWriter(@"C:\Users\alumno\"+ cmbUbicacion.SelectedItem.ToString() +@"\"+ txtNombre.Text, false);
                 writer.WriteLine(txtTexto.Text);
                 writer.Close();
             }
@@ -35,16 +35,13 @@ namespace LeerYEscribir
             {
                 txtTexto.Text = "ERROR!";
             }
-            
         }
 
         private void btnLeer_Click(object sender, EventArgs e)
-        {
-            
-
+        {       
             try
             {
-                StreamReader reader = new StreamReader(cmbUbicacion.SelectedItem.ToString() + txtTexto);
+                StreamReader reader = new StreamReader(@"C:\Users\alumno\" + cmbUbicacion.SelectedItem.ToString() + @"\" + txtNombre.Text);
                 txtTexto.Text=reader.ReadToEnd();
                 reader.Close();
             }
@@ -63,10 +60,7 @@ namespace LeerYEscribir
 
         private void cmbUbicacion_SelectedIndexChanged(object sender, EventArgs e)
         {
-            foreach(var a in Environment.SpecialFolder)
-            {
-                cmbUbicacion.Items.Add(a);
-            }
+            
         }
     }
 }

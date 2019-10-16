@@ -8,3 +8,13 @@ C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEs
 C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.csproj.CoreCompileInputs.cache
 C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.exe
 C:\Users\pc\Desktop\2DO CUATRI\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.pdb
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.Archivos.resources
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.Properties.Resources.resources
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.exe
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\obj\Debug\LeerYEscribir.pdb
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\bin\Debug\LeerYEscribir.exe.config
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\bin\Debug\LeerYEscribir.exe
+C:\Users\alumno\Desktop\Tomas Giordano\Programacion-Laboratorio_2\Giordano.Tomas\LeerYEscribir\bin\Debug\LeerYEscribir.pdb
