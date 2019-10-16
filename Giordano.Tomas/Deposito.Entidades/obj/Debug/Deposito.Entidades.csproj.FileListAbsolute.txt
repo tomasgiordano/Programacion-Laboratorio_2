@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\bin\Debug\Deposito.Entidades.dll
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\bin\Debug\Deposito.Entidades.pdb
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\obj\Debug\Deposito.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\obj\Debug\Deposito.Entidades.dll
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\obj\Debug\Deposito.Entidades.pdb
+C:\Users\alumno\Desktop\Programacion_Laboratorio_2\Pantano.Nicolas\Deposito.Entidades\obj\Debug\Deposito.Entidades.csprojAssemblyReference.cache
