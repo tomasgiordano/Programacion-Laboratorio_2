@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Clase.Interfaces.Entidades
 {
-    public class Deportivo:Auto,IAfip
+    public class Deportivo:Auto,IAfip,IArba
     {
         protected int _caballosFuerza;
 
@@ -16,6 +16,11 @@ namespace Clase.Interfaces.Entidades
         double IAfip.CalcularImpuesto()
         {
             return this._precio * 0.28;
+        }
+
+        double IArba.CalcularImpuesto()
+        {
+            return this._precio * 0.23;
         }
     }
 }

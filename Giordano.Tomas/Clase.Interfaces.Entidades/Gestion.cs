@@ -10,5 +10,10 @@ namespace Clase.Interfaces.Entidades
         {
             return bienPunible.CalcularImpuesto();
         }
+
+        public static double MostrarImpuestoProvincial(IArba bienPunible)
+        {
+            return bienPunible.CalcularImpuesto();
+        }
     }
 }
