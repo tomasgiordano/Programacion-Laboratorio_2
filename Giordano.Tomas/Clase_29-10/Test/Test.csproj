@@ -43,7 +43,9 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alumno.cs" />
     <Compile Include="Auto.cs" />
+    <Compile Include="Empleado.cs" />
     <Compile Include="IXML.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
