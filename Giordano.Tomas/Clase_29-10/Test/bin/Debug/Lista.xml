@@ -8,20 +8,23 @@
       <string>Gio</string>
     </GetApodos>
   </Persona>
-  <Persona>
+  <Persona xsi:type="Empleado">
     <nombre>Nicolas</nombre>
     <apellido>Pantano</apellido>
     <Edad>18</Edad>
     <GetApodos>
       <string>Nico</string>
     </GetApodos>
+    <legajo>1234</legajo>
+    <sueldo>1000</sueldo>
   </Persona>
-  <Persona>
+  <Persona xsi:type="Alumno">
     <nombre>Carlos</nombre>
     <apellido>Castro</apellido>
     <Edad>19</Edad>
     <GetApodos>
       <string>nYa</string>
     </GetApodos>
+    <nota>2</nota>
   </Persona>
 </ArrayOfPersona>

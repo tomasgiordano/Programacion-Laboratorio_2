@@ -17,9 +17,9 @@ namespace Test
 
             Persona P1 = new Persona("Tomas", "Giordano",18);
             P1.GetApodos.Add("Gio");
-            Persona P2 = new Persona("Nicolas", "Pantano",18);
+            Persona P2 = new Empleado("Nicolas", "Pantano",18,1000,1234);
             P2.GetApodos.Add("Nico");
-            Persona P3 = new Persona("Carlos", "Castro",19);
+            Persona P3 = new Alumno("Carlos", "Castro",19,2);
             P3.GetApodos.Add("nYa");
 
             lista.Add(P1);

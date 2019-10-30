@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\bin\Debug\Test.exe.config
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\bin\Debug\Test.exe
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\obj\Debug\Test Serializacion.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\obj\Debug\Test Serializacion.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\obj\Debug\Test.exe
+C:\Users\alumno\Desktop\Tomas\Programacion-Laboratorio_2\Giordano.Tomas\Clase_29-10\Test\obj\Debug\Test.pdb

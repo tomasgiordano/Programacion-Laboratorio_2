@@ -8,7 +8,9 @@ using System.Xml;
 using System.Xml.Serialization;
 
 namespace Test
-{
+{   
+    [XmlInclude(typeof(Alumno))]
+    [XmlInclude(typeof(Empleado))]
     public class Persona:IXML
     {
         public string nombre;

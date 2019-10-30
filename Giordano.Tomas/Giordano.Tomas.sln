@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_48.Entidades", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_48", "Ejercicio_48\Ejercicio_48.csproj", "{9AF25215-8FA8-443A-AFA4-CFD03872D52C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase.Interfaces.Entidades", "Clase.Interfaces.Entidades\Clase.Interfaces.Entidades.csproj", "{72E00BCC-FA89-4B65-A48C-551A81E2A2C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase.Interfaces.Entidades", "Clase.Interfaces.Entidades\Clase.Interfaces.Entidades.csproj", "{72E00BCC-FA89-4B65-A48C-551A81E2A2C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase.Interfaces", "Clase.Interfaces\Clase.Interfaces.csproj", "{5EEA95BB-695D-47ED-9257-0AA7B56273F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Serializacion", "Clase_29-10\Test\Test Serializacion.csproj", "{49F92A70-8FA9-49DB-92C8-4E36B4F68AF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{5EEA95BB-695D-47ED-9257-0AA7B56273F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EEA95BB-695D-47ED-9257-0AA7B56273F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EEA95BB-695D-47ED-9257-0AA7B56273F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F92A70-8FA9-49DB-92C8-4E36B4F68AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F92A70-8FA9-49DB-92C8-4E36B4F68AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F92A70-8FA9-49DB-92C8-4E36B4F68AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F92A70-8FA9-49DB-92C8-4E36B4F68AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
