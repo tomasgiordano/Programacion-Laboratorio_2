@@ -24,6 +24,8 @@ namespace AdminPersonas
         public frmPersona(Persona p):this()
         {
             miPersona = p;
+
+
         }
 
         public frmPersona()

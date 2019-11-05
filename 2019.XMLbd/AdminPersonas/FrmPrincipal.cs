@@ -16,6 +16,7 @@ namespace AdminPersonas
     public partial class FrmPrincipal : Form
     {
         private List<Persona> lista;
+        public System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(Properties.Settings.Default.Conexion);
 
         public FrmPrincipal()
         {
@@ -77,29 +78,35 @@ namespace AdminPersonas
         private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
-            {
-                System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection(Properties.Settings.Default.Conexion);
+            {                 
                 connection.Open();
                 MessageBox.Show("Exito");
-                System.Data.SqlClient.SqlCommand comando = new System.Data.SqlClient.SqlCommand();
-
-                comando.Connection = connection;
-                comando.CommandType = CommandType.Text;
-                comando.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
-
-                System.Data.SqlClient.SqlDataReader reader;
-                reader=comando.ExecuteReader();
-                while(reader.Read()!=false)
-                {
-                    MessageBox.Show(reader["id"].ToString());//En vez de id se puede pasar cualquier campo, O indice
-                }
-                reader.Close();
+                
                 connection.Close();
             }
             catch (Exception a)
             {
                 MessageBox.Show(a.Message);
             }
+        }
+
+        private void traerTodosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+            System.Data.SqlClient.SqlCommand comando = new System.Data.SqlClient.SqlCommand();
+
+            comando.Connection = connection;
+            comando.CommandType = CommandType.Text;
+            comando.CommandText = "SELECT TOP 1000 [id],[nombre],[apellido],[edad]FROM[personas_bd].[dbo].[personas]";
+
+            System.Data.SqlClient.SqlDataReader reader;
+            reader = comando.ExecuteReader();
+            while (reader.Read() != false)
+            {
+                this.lista.Add(new Persona(reader["nombre"].ToString(), reader["apellido"].ToString(), Convert.ToInt32(reader["edad"])));
+            }
+            connection.Close();
+            reader.Close();
         }
     }
 }
