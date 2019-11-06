@@ -23,8 +23,10 @@ namespace AdminPersonas
 
         public frmPersona(Persona p):this()
         {
-            miPersona = p;
-
+            this.miPersona = p;
+            this.txtApellido.Text = this.miPersona.apellido;
+            this.txtEdad.Text = this.miPersona.edad.ToString();
+            this.txtNombre.Text = this.miPersona.nombre;
 
         }
 
