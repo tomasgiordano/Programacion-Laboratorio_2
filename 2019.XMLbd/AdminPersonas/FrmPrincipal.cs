@@ -25,10 +25,7 @@ namespace AdminPersonas
             this.IsMdiContainer = true;
             this.WindowState = FormWindowState.Maximized;
             
-            this.lista = new List<Persona>();
-
-            
-            
+            this.lista = new List<Persona>();                        
         }
 
         private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)

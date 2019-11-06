@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace AdminPersonas
 {
-    public partial class frmVisorDataTable : Form
+    public partial class frmVisorDataTable : frmVisorPersona
     {
+        DataTable table;
+
         public frmVisorDataTable()
         {
+            table = new DataTable();
+
             InitializeComponent();
+        }
+
+        private void btnAgregarABD_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public DataTable GetDataTable
+        {
+            get { return this.table; }
         }
     }
 }
