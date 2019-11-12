@@ -34,7 +34,7 @@ namespace AdminPersonas
             ActualizarLista();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        protected virtual void btnAgregar_Click(object sender, EventArgs e)
         {
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
@@ -59,11 +59,10 @@ namespace AdminPersonas
                     throw f;
                 }
 
-
             }
         }
-            private void btnModificar_Click(object sender, EventArgs e)
-        {
+       protected virtual void btnModificar_Click(object sender, EventArgs e)
+       {
             frmPersona frm = new frmPersona(this.lista[this.lstVisor.SelectedIndex]);
             int id;
             id = this.GetId(frm.Persona);
@@ -71,10 +70,7 @@ namespace AdminPersonas
             frm.ShowDialog();
             if (frm.DialogResult == DialogResult.OK)
             {
-
                 this.lista[this.lstVisor.SelectedIndex] = frm.Persona;
-
-
                 try
                 {
 
@@ -94,9 +90,9 @@ namespace AdminPersonas
 
                 //implementar
             }
-        }
+       }
 
-        public void ActualizarLista()
+        public virtual void ActualizarLista()
         {
             lstVisor.Items.Clear();
 
@@ -131,7 +127,7 @@ namespace AdminPersonas
 
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        protected virtual void btnEliminar_Click(object sender, EventArgs e)
         {            
             if(lstVisor.SelectedIndex!=-1)
             {
@@ -159,5 +155,17 @@ namespace AdminPersonas
                 MessageBox.Show("Seleccione una persona.","ERROR",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
+
+        private void frmVisorPersona_Load(object sender, EventArgs e)
+        {
+            this.btnAgregar.Click += new EventHandler(this.btnAgregar_Click);
+        }
+
+        private void lstVisor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.btnModificar.Click += new EventHandler(this.btnModificar_Click);
+            this.btnEliminar.Click += new EventHandler(this.btnEliminar_Click);
+        }
+
     }
 }

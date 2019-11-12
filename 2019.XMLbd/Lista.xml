@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona>
+    <nombre>Juan</nombre>
+    <apellido>Perez</apellido>
+    <edad>53</edad>
+  </Persona>
+  <Persona>
+    <nombre>Carla</nombre>
+    <apellido>Gonzalez</apellido>
+    <edad>75</edad>
+  </Persona>
+  <Persona>
+    <nombre>Tomas</nombre>
+    <apellido>Giordano</apellido>
+    <edad>18</edad>
+  </Persona>
+  <Persona>
+    <nombre>Nicolas</nombre>
+    <apellido>Pantano</apellido>
+    <edad>45</edad>
+  </Persona>
+  <Persona>
+    <nombre>Carlos</nombre>
+    <apellido>Castro</apellido>
+    <edad>34</edad>
+  </Persona>
+</ArrayOfPersona>

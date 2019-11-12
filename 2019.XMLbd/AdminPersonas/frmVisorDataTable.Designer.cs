@@ -1,6 +1,6 @@
 ﻿namespace AdminPersonas
 {
-    partial class frmVisorDataTable
+    partial class FrmVisorDataTable
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,6 @@
             this.btnAgregarABD.TabIndex = 4;
             this.btnAgregarABD.Text = "Agregar a BD";
             this.btnAgregarABD.UseVisualStyleBackColor = true;
-            this.btnAgregarABD.Click += new System.EventHandler(this.btnAgregarABD_Click);
             // 
             // frmVisorDataTable
             // 
