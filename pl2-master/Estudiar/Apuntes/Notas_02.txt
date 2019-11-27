@@ -1,0 +1,23 @@
+Ejercicio 41 a 43
+EJERCICIO 44 A 47
+
+Durante la creacion de un nuevo objeto:
+Reserva memoria: NEW
+Inicializa memoria: el constructor
+
+Al instanciar un Elemento estatico, este se va crear una sóla copia, en cambio un no estático va ocupar más.
+- al instanciar un objeto hay un solo atributo (static)
+- al no ser estatico hay 100 instancias (no-static)
+
+El constructor estatico se inicizaliza sin necesidad de una llamada explicita del programador.
+El constructor estático se ejecutará antes que cualquier otro método o atributo de la clase.
+
+En la sobrecarga de métodos también tener en cuenta el retorno.
+
+La relacion de herencia no no hereda los constructores.
+
+fifogenerica: queue
+lifo generica: stack
+clavevalor nogerica: hastable
+ordena sola: sortedlist
+

@@ -1,0 +1,33 @@
+A la clase base agregar el evento que falta:
+
+
+ASTRO
+------------
+InvocarEvento()
+
+RunEnv..(...){
+...
+base.InvocarEvento();
+...
+
+
+}
+
+
+Y en los run y esos, hace rel invoke invocar evento
+
+
+
+-------------
+
+BORRAR LA FUNCION:
+
+
+        public static bool operator ==(Planeta planeta, ...)
+        {
+            bool retorno = false;
+
+            //Este borrarlo
+
+            return retorno;
+        }

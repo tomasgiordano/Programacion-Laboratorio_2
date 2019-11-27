@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ComiqueriaLogic.Comic">
+    <Position X="0.5" Y="4.75" Width="5.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ComiqueriaLogic.Comic.TipoComic">
+        <TypeIdentifier>
+          <NewMemberFileName>Comic.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Comic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.Comiqueria">
+    <Position X="6.25" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEABAAAEAQgAAAAAAEAAAAAAEAAAQAAAAAiA=</HashCode>
+      <FileName>Entidades\Comiqueria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.Figura">
+    <Position X="6.5" Y="5.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.Producto">
+    <Position X="0.5" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAEAAEAAAARgAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.Venta">
+    <Position X="6.5" Y="7" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAQBAAAEBAAAAAAAAAAAAAAABCAAAAAACBAA=</HashCode>
+      <FileName>Entidades\Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComprobantesLogic.Comprobante">
+    <Position X="11.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAgAAAAABAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Comprobante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComprobantesLogic.Factura">
+    <Position X="11.75" Y="3.75" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ComprobantesLogic.Factura.TipoFactura">
+        <TypeIdentifier>
+          <NewMemberFileName>Entidades\Factura.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAQAAAACAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Factura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComprobantesLogic.Recibo" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAgAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recibo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.ComiqueriaException" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comun\ComiqueriaException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.ExtensionNumerica" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comun\ExtensionNumerica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaLogic.Serializador&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAAAAAAAIIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia de Datos\Serializador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaDataAccess.DatabaseConnection" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAABCAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Persistencia de Datos\DatabaseConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComiqueriaDataAccess.ProductosDB" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAACAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia de Datos\ProductosDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ComiqueriaLogic.IArchivoTexto">
+    <Position X="2.5" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IArchivoTexto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ComiqueriaLogic.AccionesDB" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Comun\Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSPyFinalForm", "FinalLaboII\RSPyFinalForm.csproj", "{6C43934F-3161-4052-826C-A521997B757B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "DAO\Datos.csproj", "{BFD16480-D6C5-481F-BD22-53042ACB0669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadesSPyFinal", "EntidadesSPyFinal\EntidadesSPyFinal.csproj", "{9F2749C2-15BB-4F6A-99CC-2C22FBD0003D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28C10431-6984-415E-8BBC-25CF4B0299C8}"
+	ProjectSection(SolutionItems) = preProject
+		Correcciones_Enunciados.txt = Correcciones_Enunciados.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C43934F-3161-4052-826C-A521997B757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C43934F-3161-4052-826C-A521997B757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C43934F-3161-4052-826C-A521997B757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C43934F-3161-4052-826C-A521997B757B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD16480-D6C5-481F-BD22-53042ACB0669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD16480-D6C5-481F-BD22-53042ACB0669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD16480-D6C5-481F-BD22-53042ACB0669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD16480-D6C5-481F-BD22-53042ACB0669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2749C2-15BB-4F6A-99CC-2C22FBD0003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2749C2-15BB-4F6A-99CC-2C22FBD0003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2749C2-15BB-4F6A-99CC-2C22FBD0003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2749C2-15BB-4F6A-99CC-2C22FBD0003D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D0B14B9-05D2-4E8B-89BC-246C04D6F747}
+	EndGlobalSection
+EndGlobal

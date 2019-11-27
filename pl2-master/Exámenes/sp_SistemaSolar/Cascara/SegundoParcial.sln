@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{89A27D0B-D278-4F7B-8316-052183D36EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaSolar", "SistemaSolar\SistemaSolar.csproj", "{A99362A8-6F78-4D98-B7B4-F3260DC798D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A27D0B-D278-4F7B-8316-052183D36EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A27D0B-D278-4F7B-8316-052183D36EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A27D0B-D278-4F7B-8316-052183D36EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A27D0B-D278-4F7B-8316-052183D36EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99362A8-6F78-4D98-B7B4-F3260DC798D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99362A8-6F78-4D98-B7B4-F3260DC798D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99362A8-6F78-4D98-B7B4-F3260DC798D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99362A8-6F78-4D98-B7B4-F3260DC798D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6A3A719-A68A-48FE-8A0F-C42FEDCF9149}
+	EndGlobalSection
+EndGlobal

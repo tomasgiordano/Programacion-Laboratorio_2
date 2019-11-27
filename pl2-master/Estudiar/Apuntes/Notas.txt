@@ -1,0 +1,14 @@
+- para conectarse vamos a tener que usar la cadena de conexion.
+
+- sin los corchetes (xd)
+
+- usamos dos objetos: sqlconnection y sqlcommand
+
+- comando.CommandType = System.Data.CommandType.Text;
+- - es de tipo texto porque las consultas q vamos hacer van a ser de tipo string
+
+
+cuando tenemos que leer datos instanciamos sqldatareader [pág6 ppt]
+
+-- todas las que no sean selec va executenonquery();
+

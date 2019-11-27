@@ -1,0 +1,26 @@
+Ejercicio 40
+Y modelo de parcial: 20181009PPLabII
+-- De clase significa estático, se van a llamar en la primera interacion en la clase, y lo que van a inilizaciolar son campos estáticos
+--- No tienen modificar de acceso
+
+-- Dif entre podrá ser (virtual) y deberá (obligado) (abstract)
+--- No tiene implementacion es abstract
+
+Para primer parcial:
+Todo lo que vimos:
+indexadores,
+http://oscarsotorrio.com/post/2008/04/26/Indexacion.aspx
+
+static,
+
+guid
+https://docs.microsoft.com/en-us/dotnet/api/system.guid.newguid?view=netframework-4.8
+
+Primer parcial:
+- 5 clases
+- llamar un form desde otro
+
+
+trycatch voz_018 & 019
+- la clase excepcition no tiene que ir primero en un multiple trycatch
+- 

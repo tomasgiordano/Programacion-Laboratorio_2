@@ -1,0 +1,10 @@
+• 6b y 7b:
+- Ejecutar elementos es ejecutar delegados
+• 4a:
+- Abstracto Transporte recibe objeto transporte
+• 4f:
+- No va
+• 4c:
+- Agregar constructor
+• 5:
+- Delegado retorna void
